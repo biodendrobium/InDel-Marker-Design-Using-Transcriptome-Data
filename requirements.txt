@@ -1,0 +1,2 @@
+pandas>=2.0
+primer3-py>=2.0

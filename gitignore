@@ -1,0 +1,27 @@
+.DS_Store
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.env
+.venv/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Results / large data (example)
+results/
+db/
+*.fasta
+*.fa
+*.fai
+*.fq
+*.fastq
+*.gz
+
+# IDEs
+.vscode/
+.idea/
