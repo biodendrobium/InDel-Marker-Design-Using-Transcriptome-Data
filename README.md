@@ -56,7 +56,7 @@ blastn -version
 
 > **Indel criteria used here**
 > - Keep only loci with exactly 2 ALT allele types (down-selected from 1–4 observed).
-> - Size difference REF vs ALT between **15–28 bp**.
+> - Size difference REF vs ALT between **15–29 bp**.
 
 ---
 
@@ -196,15 +196,14 @@ python scripts/step6.final.py
 ## Citation
 
 If you use this pipeline, please cite:
-- Untergasser, A., *et al.* (2012). Primer3—new capabilities and interfaces. *Nucleic Acids Research*.
-- Sherpa, L., *et al.* (2022). Draft genome of *Dendrobium* (Phalaenopsis type). *(Provide exact citation details)*.
-- This repository: **InDel-Marker-Design-Using-Transcriptome-Data** (GitHub).
+## 
+## This repository: **InDel-Marker-Design-Using-Transcriptome-Data** (GitHub).
 
 ---
 
 ## 中文说明（简要）
 
-本流程面向高度杂合的蝴蝶兰型石斛：每个位点可能有 1–4 个等位。为便于分析，我们仅保留 **2 种 ALT 等位**，并要求 REF/ALT 片段长度差 **15–28 bp**。随后：
+本流程面向高度杂合的蝴蝶兰型石斛：每个位点可能有 1–4 个等位。为便于分析，我们仅保留 **2 种 ALT 等位**，并要求 REF/ALT 片段长度差 **15–29 bp**。随后：
 1) 从 `unigene.fasta` 提取对应序列；
 2) 截取 InDel 位点上下游各 150 bp（总 300 bp）；
 3) 用 Primer3 设计每个位点最多 5 对引物（长度 20–24 bp，Tm 56–60 °C，产物 260–280 bp）；
